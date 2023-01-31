@@ -1,0 +1,1002 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+}
+nav a{
+  color:rgb(255, 255, 255);
+  font-family:'Times New Roman', Times, serif;
+}
+ul li{
+  color: #1197bc;
+}
+header, nav, footer{
+    background-color: rgba(43, 42, 42, 0.84);
+}
+#inputHeader{
+  width: 800px;
+  height: 30px;
+}
+#letper{
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  
+}
+header,footer,aside,section,nav {
+  border-radius: 15px;
+  }
+  
+section {
+  border-radius: 15px;
+}
+
+header, footer{
+  display: flex;
+  align-items: center;
+}
+#fb,#ig,#tw{
+    width: 20px;
+    height: 20px;
+  }
+.logo{
+    width: 100px;
+    height: 100px; 
+}
+.ima{
+    width: 200px;
+    height: 200px;
+}
+.calif{
+  width: 160px;
+  height: 45px;
+}
+#main, #main3, #main4 {
+    width: 100%;
+    height: 100%;
+}
+#main2 {
+  width: auto;
+  height: auto;
+}
+#main5 {
+  width: auto;
+  height: auto;
+}
+
+header {
+    grid-area: header;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    
+  }
+nav{
+    grid-area: nav;
+    padding: 20px;
+  }
+section{
+    grid-area: section;
+    grid-template-rows: auto;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    border: 1px solid #000000;
+    justify-items: stretch;
+    align-items: stretch;
+    padding: 20px;
+}
+#seg{
+  grid-area: seg;
+  grid-template-rows: auto;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#se3{
+    grid-area: se3;
+    grid-template-rows: auto;
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+    background-size: cover;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    border: 1px solid #000000;
+    justify-items: center;
+    align-items: stretch;
+    padding: 20px;
+}
+#se4{
+  grid-area: se4;
+  grid-template-rows: auto;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#se5{
+  grid-area: se5;
+  grid-template-rows: auto;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#formu{
+  background-color: rgba(19, 19, 19, 0.585);
+  text-align: center;
+  width: 400px;
+  height: 400px;
+}
+
+footer {
+    grid-area: footer;
+    justify-content: center;
+    
+  }
+.redes {
+    font-size:large;
+    font-weight:bold;
+    padding: 5px;
+    margin: 5px;
+}
+#main, section, #seg, #main2, #se3, #main3, #se4, #main4, #se5, #main5 {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+  
+#main, #main2, #main3, #main4 {
+    grid-template-rows: auto  auto auto ;
+}
+#main5 {
+  grid-template-rows: auto auto auto auto;
+}
+
+#main3 {
+  width: auto;
+  height: auto;
+}
+
+#comedia{
+  grid-area: comedia;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 20px;
+} 
+#infantiles{
+  grid-area: infantiles;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 20px;
+}
+#romance{
+  grid-area: romance;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 20px;
+}
+#suspenso{
+  grid-area: suspenso;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 20px;
+}
+#accion{
+  grid-area: accion;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 20px;
+}
+#cuerpo{
+  grid-area: cuerpo;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 20px;
+} 
+#cuerpo2{
+  grid-area: cuerpo2;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 20px;
+} 
+#title{
+  grid-area: title;
+  display: grid;
+  grid-template-rows: auto auto;
+  color:rgb(0, 0, 0);
+  background-color: #1197bc;
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#imagen1{
+  grid-area: imagen1;
+  display: grid;
+  grid-template-rows: auto auto;
+  color:rgb(0, 0, 0);
+  background-color: #1197bc;
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#imagen2{
+  grid-area: imagen2;
+  display: grid;
+  grid-template-rows: auto auto;
+  color:rgb(0, 0, 0);
+  background-color: #1197bc;
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#texto1{
+  grid-area: texto1;
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+
+#texto2{
+  grid-area: texto2;
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+
+#imagen{
+  grid-area: imagen;
+  display: grid;
+  grid-template-rows: auto auto;
+  color:rgb(0, 0, 0);
+  background-color: #1197bc;
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+  }
+#imagenseg{
+    grid-area: imagenseg;
+    display: grid;
+    grid-template-rows: auto auto;
+    color:rgb(0, 0, 0);
+    background-color: #1197bc;
+    font-family:'Times New Roman', Times, serif;
+    border: 1px solid #000000;
+    justify-items: stretch;
+    align-items: stretch;
+    padding: 20px;
+}
+#texto{
+  grid-area: texto;
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#textoseg{
+    grid-area: textoseg;
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    border: 1px solid #000000;
+    justify-items: stretch;
+    align-items: stretch;
+    padding: 20px;
+}
+#contenido{
+    grid-area: contenido;
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    border: 1px solid #000000;
+    justify-items: stretch;
+    align-items: stretch;
+    padding: 20px;
+}
+h1{
+  text-align: center;
+  
+}
+  
+
+#imagenp{
+  grid-area: imagenp;
+  display: grid;
+  grid-template-rows: auto auto;
+  color:rgb(0, 0, 0);
+  background-color: #1197bc;
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#imagens{
+  grid-area: imagens;
+  display: grid;
+  grid-template-rows: auto auto;
+  color:rgb(0, 0, 0);
+  background-color: #1197bc;
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#imagent{
+  grid-area: imagent;
+  display: grid;
+  grid-template-rows: auto auto;
+  color:rgb(0, 0, 0);
+  background-color: #1197bc;
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#textop{
+  grid-area: textop;
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+
+#textos{
+  grid-area: textos;
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#textot{
+  grid-area: textot;
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+
+
+#imagenpp{
+  grid-area: imagenpp;
+  display: grid;
+  grid-template-rows: auto;
+  color:rgb(0, 0, 0);
+  background-color: #1197bc;
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#imagenss{
+  grid-area: imagenss;
+  display: grid;
+  grid-template-rows: auto;
+  color:rgb(0, 0, 0);
+  background-color: #1197bc;
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#imagentt{
+  grid-area: imagentt;
+  display: grid;
+  grid-template-rows: auto;
+  color:rgb(0, 0, 0);
+  background-color: #1197bc;
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#textopp{
+  grid-area: textopp;
+  display: grid;
+  grid-template-rows: auto;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+
+#textoss{
+  grid-area: textoss;
+  display: grid;
+  grid-template-rows: auto;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+#textott{
+  grid-area: textott;
+  display: grid;
+  grid-template-rows: auto;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #000000;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 20px;
+}
+/*MOBILE --------------------------------------------------------------------------------------------*/ 
+@media screen and (max-width: 520px) {
+  #main {
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "header"
+    "nav" 
+    "section" 
+    "footer";
+  }
+  #main2 {
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "header"
+    "nav" 
+    "seg" 
+    "footer";
+  }
+  #main3 {
+    grid-template-columns: auto auto auto auto;
+    grid-template-areas: 
+    "header" 
+    "nav" 
+    "se3" 
+    "footer";
+  }
+
+  #main4 {
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "header"
+    "nav" 
+    "se4" 
+    "footer";
+  }
+  #main5 {
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "header"
+    "nav" 
+    "se5" 
+    "footer";
+  }
+  section{
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, auto);
+    border: 1px solid black;
+    grid-template-areas: 
+    "comedia" 
+    "infantiles"
+    "romance"
+    "suspenso"
+    "accion";
+  }
+
+  #seg{
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, auto);
+    border: 1px solid black;
+    grid-template-areas: 
+    "title" 
+    "imagenseg"
+    "textoseg"
+    "contenido";
+  }
+  #se3{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+    border: 1px solid black;
+  }
+
+  #se4{
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, auto);
+    border: 1px solid black;
+    grid-template-areas: 
+    "cuerpo";
+  }
+  #se5{
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, auto);
+    border: 1px solid black;
+    grid-template-areas: 
+    "cuerpo2";
+  }
+  #cuerpo{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+    border: 1px solid black;
+    grid-template-areas: 
+    "title"
+    "imagenp"
+    "textop"
+    "imagens"
+    "textos"
+    "imagent"
+    "textot";
+  }
+  #cuerpo2{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+    border: 1px solid black;
+    grid-template-areas: 
+    "title"
+    "imagenpp"
+    "textopp"
+    "imagenss"
+    "textoss"
+    "imagentt"
+    "textott";
+  }
+  #comedia{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+    border: 1px solid black;
+    grid-template-areas: 
+    "title"
+    "imagen1"
+    "texto1"
+    "imagen2"
+    "texto2";
+  }
+  #infantiles{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+    border: 1px solid black;
+    grid-template-areas: 
+    "title"
+    "imagen1" 
+    "texto1"
+    "imagen2" 
+    "texto2";
+  }
+  #romance{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+    border: 1px solid black;
+    grid-template-areas:
+    "title"
+    "imagen1" 
+    "texto1"
+    "imagen2" 
+    "texto2";
+  }
+  #suspenso{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+    border: 1px solid black;
+    grid-template-areas: 
+    "title"
+    "imagen1" 
+    "texto1"
+    "imagen2" 
+    "texto2";
+  }
+  #accion{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+    border: 1px solid black;
+    grid-template-areas: 
+    "title"
+    "imagen1" 
+    "texto1"
+    "imagen2" 
+    "texto2";
+  }
+  #contenido{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #imagen{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+  }
+  #texto{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+  }
+
+  #imagenseg{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #textoseg{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+
+  #imagenp{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #imagens{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #imagent{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #textop{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #textos{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #textot{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+
+
+  #imagenpp{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #imagenss{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #imagentt{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #textopp{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #textoss{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #textott{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, auto);
+  }
+  #inputNav, #menuBurger {
+    display: none;
+  }
+
+  aside, #ulNav, #inputHeader{
+    display: block;
+  }
+  .border{
+    border: 1px solid black;
+    
+  }
+  aside, #ulNav, #inputHeader{
+    display: none;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #menuBurger{
+    padding: 20px;
+  }
+
+  #inputheader{
+    margin: 20px;
+  }
+} 
+
+/* DESKTOP ----------------------------------------------------------------------------- */
+@media screen and (min-width: 1024px) {
+    #main {
+      grid-template-columns: 10% auto;
+      grid-template-areas: 
+      "header header" 
+      "nav  section"
+      "footer footer";
+    }
+    #main2 {
+      grid-template-columns: 10% auto;
+      grid-template-areas: 
+      "header header" 
+      "nav  seg"
+      "footer footer";
+    }
+    #main3 {
+      grid-template-columns: 10% auto;
+      grid-template-areas: 
+      "header header" 
+      "nav  se3"  
+      "footer footer";
+    }
+    #main4 {
+      grid-template-columns: 10% auto;
+      grid-template-areas: 
+      "header header" 
+      "nav  se4"  
+      "footer footer";
+    }
+    #main5 {
+      grid-template-columns: 10% auto;
+      grid-template-areas: 
+      "header header" 
+      "nav  se5"  
+      "footer footer";
+    }
+    section {
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(6, auto);
+      border: 1px solid black;
+      grid-template-areas: 
+      "comedia" 
+      "infantiles"
+      "romance"
+      "suspenso"
+      "terror"
+      "accion";
+    }
+
+    
+    #seg{
+      grid-template-columns: 30% auto;
+      grid-template-rows: repeat(6, auto);
+      border: 1px solid black;
+      grid-template-areas: 
+      "title title"
+      "imagenseg textoseg"
+      "contenido contenido";
+    }
+
+    #se4 {
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(6, auto);
+      border: 1px solid black;
+      grid-template-areas: 
+      "cuerpo" ;
+    }
+    #se5 {
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+      border: 1px solid black;
+      grid-template-areas: 
+      "cuerpo2" ;
+    }
+    #comedia{
+      grid-template-columns: 30% auto;
+      grid-template-rows: repeat(auto, auto);
+      border: 1px solid black;
+      grid-template-areas: 
+      "title title"
+      "imagen1 texto1"
+      "imagen2 texto2"
+      ;
+    }
+    #infantiles{
+      grid-template-columns: 30% auto;
+      grid-template-rows: repeat(auto, auto);
+      border: 1px solid black;
+      grid-template-areas: 
+      "title title"
+      "imagen1 texto1"
+      "imagen2 texto2";
+    }
+    #romance{
+      grid-template-columns: 30% auto;
+      grid-template-rows: repeat(auto, auto);
+      border: 1px solid black;
+      grid-template-areas:
+      "title title" 
+      "imagen1 texto1"
+      "imagen2 texto2";
+    }
+    #suspenso{
+      grid-template-columns: 30% auto;
+      grid-template-rows: repeat(auto, auto);
+      border: 1px solid black;
+      grid-template-areas: 
+      "title title"
+      "imagen1 texto1"
+      "imagen2 texto2";
+    }
+    #accion{
+      grid-template-columns: 30% auto;
+      grid-template-rows: repeat(auto, auto);
+      border: 1px solid black;
+      grid-template-areas: 
+      "title title"
+      "imagen1 texto1"
+      "imagen2 texto2";
+    }
+    #title{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(4, auto);
+      border: 1px solid black;
+    }
+    #imagen{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(4, auto);
+      border: 1px solid black;
+    }
+    #imagenseg{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(4, auto);
+      border: 1px solid black;
+    }
+    #texto{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(2, auto);
+      border: 1px solid black;
+    }
+    #textoseg{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(4, auto);
+      border: 1px solid black;
+    }
+
+    #complemento{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(4, auto);
+      border: 1px solid black;    
+    }
+
+    #cuerpo{
+      grid-template-columns: 30% auto;
+      grid-template-rows: repeat(auto, auto);
+      border: 1px solid black;
+      grid-template-areas: 
+      "title title"
+      "imagenp textop"
+      "imagens textos"
+      "imagent textot";
+    }
+    #cuerpo2{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+      border: 1px solid black;
+      grid-template-areas: 
+      "title title"
+      "imagenpp textopp"
+      "imagenss textoss"
+      "imagentt textott";
+    }
+    #imagenp{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+    }
+    #imagens{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+    }
+    #imagent{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+    }
+    #textop{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+    }
+    #textos{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+    }
+    #textot{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+    }
+
+
+    #imagenpp{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+    }
+    #imagenss{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+    }
+    #imagentt{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+    }
+    #textopp{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+    }
+    #textoss{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+    }
+    #textott{
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto, auto);
+    }
+
+    #inputNav, #menuBurger {
+      display: none;
+    }
+  
+    aside, #ulNav, #inputHeader{
+      display: block;
+    }
+    .border{
+      border: 1px solid black;
+      
+    }
+
+}
+
