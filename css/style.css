@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 body{
     color:rgb(255, 255, 255);
     font-family:'Times New Roman', Times, serif;
@@ -48,7 +50,14 @@ header, footer{
 .ima{
     width: 200px;
     height: 200px;
+    transition: 1s;
 }
+.ima:hover{
+    width: 250px;
+    height: 250px;
+}
+
+
 .calif{
   width: 160px;
   height: 45px;
