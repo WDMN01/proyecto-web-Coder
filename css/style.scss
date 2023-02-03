@@ -10,11 +10,12 @@
 body{
     color: $colortres;
     font-family:'Times New Roman', Times, serif;
+    nav a{
+        color: $colortres;
+        font-family:'Times New Roman', Times, serif;
+      }
 }
-nav a{
-  color: $colortres;
-  font-family:'Times New Roman', Times, serif;
-}
+
 ul li{
   color: $colorsecundario;
 }
@@ -22,10 +23,18 @@ header, nav, footer{
     background-color: $colorprincipal;
 
 }
+@mixin alineacionderecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-self: center;
+}
+
 #inputHeader{
-  width: 800px;
+  width: 650px;
   height: 30px;
 }
+
 #letper{
   color:$colorcuatro;
   font-family:'Times New Roman', Times, serif;
@@ -43,10 +52,18 @@ header, footer{
   display: flex;
   align-items: center;
 }
-#fb,#ig,#tw{
-    width: 20px;
-    height: 20px;
-  }
+
+#fb,#ig,#tw, .redf, .redi, .redt{
+    width: $anchor;
+    height: $altor;
+    transition: 1s;
+}
+#fb:hover,#ig:hover,#tw:hover, .redf:hover, .redi:hover, .redt:hover{
+    width: $anchor + 15;
+    height: $altor + 15;
+}
+
+
 .logo{
     width: 100px;
     height: 100px; 
@@ -98,7 +115,8 @@ nav{
     align-items: stretch;
     padding: 20px;
 
-  }
+}
+
 #logo{
   grid-area: logo;
   display: grid;
@@ -605,6 +623,7 @@ h1{
     "se5" 
     "footer";
   }
+
   section{
     grid-template-columns: 100%;
     grid-template-rows: repeat(6, auto);
@@ -1083,8 +1102,22 @@ h1{
 
 }
 
+.redf{
+    background-color: map-get($redes , facebook);
+}
+.redi{
+    background-color: map-get($redes , instagram);
+}
+.redt{
+    background-color: map-get($redes , twitter);
+}
 
+.redc{
+    @extend .redf;
+    background-color: rgba(45, 155, 45, 0.888);
+    width: auto;
+}
 
-
-
-
+#buscar, #desplegable{
+    @include alineacionderecha()
+}

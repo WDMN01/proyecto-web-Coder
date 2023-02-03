@@ -7,8 +7,7 @@ body {
   color: rgb(255, 255, 255);
   font-family: "Times New Roman", Times, serif;
 }
-
-nav a {
+body nav a {
   color: rgb(255, 255, 255);
   font-family: "Times New Roman", Times, serif;
 }
@@ -22,7 +21,7 @@ header, nav, footer {
 }
 
 #inputHeader {
-  width: 800px;
+  width: 650px;
   height: 30px;
 }
 
@@ -44,9 +43,15 @@ header, footer {
   align-items: center;
 }
 
-#fb, #ig, #tw {
-  width: 20px;
-  height: 20px;
+#fb, #ig, #tw, .redf, .redc, .redi, .redt {
+  width: 30px;
+  height: 30px;
+  transition: 1s;
+}
+
+#fb:hover, #ig:hover, #tw:hover, .redf:hover, .redc:hover, .redi:hover, .redt:hover {
+  width: 45px;
+  height: 45px;
 }
 
 .logo {
@@ -973,4 +978,27 @@ h1 {
   .border {
     border: 1px solid black;
   }
+}
+.redf, .redc {
+  background-color: rgba(68, 120, 233, 0.8431372549);
+}
+
+.redi {
+  background-color: rgba(187, 32, 96, 0.768627451);
+}
+
+.redt {
+  background-color: rgba(0, 38, 255, 0.737254902);
+}
+
+.redc {
+  background-color: rgba(45, 155, 45, 0.888);
+  width: auto;
+}
+
+#buscar, #desplegable {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-self: center;
 }/*# sourceMappingURL=style.css.map */
