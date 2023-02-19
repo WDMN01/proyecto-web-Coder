@@ -646,7 +646,7 @@ h1 {
     grid-template-areas: "header" "nav" "section" "footer";
   }
   #main2 {
-    grid-template-columns: 100%;
+    grid-template-columns: auto;
     grid-template-areas: "header" "nav" "seg" "footer";
   }
   #main3 {
