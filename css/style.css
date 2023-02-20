@@ -154,7 +154,7 @@ nav {
   grid-template-rows: auto auto;
   color: rgb(0, 0, 0);
   font-family: "Times New Roman", Times, serif;
-  border: 1px solid #000000;
+  border: none;
   justify-items: stretch;
   align-items: stretch;
   padding: 20px;
@@ -200,7 +200,7 @@ section {
 #seg {
   grid-area: seg;
   grid-template-rows: auto;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(43, 42, 42, 0.84);
   color: rgb(0, 0, 0);
   font-family: "Times New Roman", Times, serif;
   border: 1px solid #000000;
@@ -226,10 +226,10 @@ section {
 #se4 {
   grid-area: se4;
   grid-template-rows: auto;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(43, 42, 42, 0.84);
   color: rgb(0, 0, 0);
   font-family: "Times New Roman", Times, serif;
-  border: 1px solid #000000;
+  border: none;
   justify-items: stretch;
   align-items: stretch;
   padding: 20px;
@@ -289,6 +289,7 @@ footer {
 #comedia {
   grid-area: comedia;
   display: grid;
+  background-color: rgba(43, 42, 42, 0.84);
   -moz-column-gap: 10px;
        column-gap: 10px;
   row-gap: 10px;
@@ -298,6 +299,7 @@ footer {
 #infantiles {
   grid-area: infantiles;
   display: grid;
+  background-color: rgba(43, 42, 42, 0.84);
   -moz-column-gap: 10px;
        column-gap: 10px;
   row-gap: 10px;
@@ -307,6 +309,7 @@ footer {
 #romance {
   grid-area: romance;
   display: grid;
+  background-color: rgba(43, 42, 42, 0.84);
   -moz-column-gap: 10px;
        column-gap: 10px;
   row-gap: 10px;
@@ -316,6 +319,7 @@ footer {
 #suspenso {
   grid-area: suspenso;
   display: grid;
+  background-color: rgba(43, 42, 42, 0.84);
   -moz-column-gap: 10px;
        column-gap: 10px;
   row-gap: 10px;
@@ -325,6 +329,7 @@ footer {
 #accion {
   grid-area: accion;
   display: grid;
+  background-color: rgba(43, 42, 42, 0.84);
   -moz-column-gap: 10px;
        column-gap: 10px;
   row-gap: 10px;
@@ -664,7 +669,8 @@ h1 {
   section {
     grid-template-columns: 100%;
     grid-template-rows: repeat(6, auto);
-    border: 1px solid black;
+    background-color: rgba(43, 42, 42, 0.84);
+    color: none;
     grid-template-areas: "comedia" "infantiles" "romance" "suspenso" "accion";
   }
   #seg {
@@ -693,43 +699,44 @@ h1 {
   #cuerpo {
     grid-template-columns: auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "title" "imagenp" "textop" "imagens" "textos" "imagent" "textot";
   }
   #cuerpo2 {
     grid-template-columns: auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    background-color: rgba(43, 42, 42, 0.84);
+    border: none;
     grid-template-areas: "title" "imagenpp" "textopp" "imagenss" "textoss" "imagentt" "textott";
   }
   #comedia {
     grid-template-columns: auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "title" "imagen1" "texto1" "imagen2" "texto2";
   }
   #infantiles {
     grid-template-columns: auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "title" "imagen1" "texto1" "imagen2" "texto2";
   }
   #romance {
     grid-template-columns: auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "title" "imagen1" "texto1" "imagen2" "texto2";
   }
   #suspenso {
     grid-template-columns: auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "title" "imagen1" "texto1" "imagen2" "texto2";
   }
   #accion {
     grid-template-columns: auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "title" "imagen1" "texto1" "imagen2" "texto2";
   }
   #contenido {
@@ -877,7 +884,7 @@ h1 {
   #se4 {
     grid-template-columns: 100%;
     grid-template-rows: repeat(6, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "cuerpo";
   }
   #se5 {
@@ -889,31 +896,31 @@ h1 {
   #comedia {
     grid-template-columns: 30% auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "title title" "imagen1 texto1" "imagen2 texto2";
   }
   #infantiles {
     grid-template-columns: 30% auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "title title" "imagen1 texto1" "imagen2 texto2";
   }
   #romance {
     grid-template-columns: 30% auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "title title" "imagen1 texto1" "imagen2 texto2";
   }
   #suspenso {
     grid-template-columns: 30% auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "title title" "imagen1 texto1" "imagen2 texto2";
   }
   #accion {
     grid-template-columns: 30% auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "title title" "imagen1 texto1" "imagen2 texto2";
   }
   #title {
@@ -949,13 +956,14 @@ h1 {
   #cuerpo {
     grid-template-columns: 30% auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    border: none;
     grid-template-areas: "title title" "imagenp textop" "imagens textos" "imagent textot";
   }
   #cuerpo2 {
     grid-template-columns: auto;
     grid-template-rows: repeat(auto, auto);
-    border: 1px solid black;
+    background-color: rgba(43, 42, 42, 0.84);
+    border: none;
     grid-template-areas: "title title" "imagenpp textopp" "imagenss textoss" "imagentt textott";
   }
   #imagenp {
