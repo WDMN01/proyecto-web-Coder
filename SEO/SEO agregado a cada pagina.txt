@@ -1,0 +1,74 @@
+Index.thml----------------------------------------
+    <title>Pagina principal RePelis</title>
+    <meta name="keywords" content="peliculas, series, documentales, comedia, infantiles, romance, suspenso, accion">
+    <meta name="description" content="Encuentra aqui las mejores sugerencias de contenido de streaming para ver">
+
+comedia1.html-------------------------------------
+    <title>¿Donde estan las rubias?</title>
+    <meta name="keywords" content="peliculas, comedia, White Chicks ,Shawn Wayans, Marlon Wayans, Maitland Ward, Anne Dudek, Terry Crews">
+    <meta name="description" content="Y donde estan las rubias una de las mas iconicas peliculas de comedia estadounidense">
+
+series.html---------------------------------------
+    <title>Series RePelis</title>
+    <meta name="keywords" content="series, comedia, drama, accion, romance, populares">
+    <meta name="description" content="Encuentra las mejores sugerencias para comenzar a ver una serie">
+
+documentales.html-------------------------------------
+    <title>Documentales</title>
+    <meta name="keywords" content="documentales, finanzas, tecnologia, actualidad, politica, crisis">
+    <meta name="description" content="Enterate de multiples temas a travez de documentales ">
+
+contacto.html-------------------------------------
+    <title>Contactanos</title>
+    <meta name="keywords" content="contacto, datos, sugerencias, pqrs">
+    <meta name="description" content="Registra tus datos y obten recomendaciones del mejor contenido de streaming ">
+
+comedia2.html-----------------------------------
+    <title>La Mascara</title>
+    <meta name="keywords" content="peliculas, comedia, Mascara ,Jim Carrey, Cameron Diaz, Ipkiss">
+    <meta name="description" content="Una de las prliculas que mas reconocimiento de le dio a Jim Carrey y Cameron Dias">
+
+infantiles1.html---------------------------------
+    <title>El Gato con Botas 2</title>
+    <meta name="keywords" content="peliculas, infantiles, gato , sherk, Dreamworks">
+    <meta name="description" content="La entrega mas reciente de la franquicia se Sherk">
+
+infantiles2.html--------------------------------
+    <title>Encanto</title>
+    <meta name="keywords" content="peliculas, infantiles, Disney, Encanto, Colombia">
+    <meta name="description" content="Una entrega animada de Disney basada en Colombia">
+
+romance1.html-----------------------------------
+    <title>Cuestion de tiempo</title>
+    <meta name="keywords" content="peliculas, romance, britanica , viaje en el tiempo">
+    <meta name="description" content="Una pelicula romantica britanica que te hara pensar en la importancia del tiempo">
+
+romance2.html----------------------------------
+    <title>Ojala Fuera Cierto</title>
+    <meta name="keywords" content="peliculas, romance, novela , vida">
+    <meta name="description" content="Una pelicula romantica resalta la importancia de la vida">
+
+suspenso1.html--------------------------------
+    <title>Joker</title>
+    <meta name="keywords" content="peliculas, suspenso, DC comics, joker">
+    <meta name="description" content="Una pelicula de dc comics con una alta profundidad psicologica">
+
+suspenso2.html-------------------------------
+    <title>Codigo Enigma</title>  
+    <meta name="keywords" content="peliculas, suspenso, segunda guerra mundial, reino unido, enigma, computador">
+    <meta name="description" content="Una pelicula basada en la segunda gurra mundial, marca el inicio de la computacion">
+
+accion1.html---------------------------------
+    <title>Jack Reacher</title>  
+    <meta name="keywords" content="peliculas, accion, jack reacher, ejercito, USA, atentado">
+    <meta name="description" content="Una pelicula estadounidense de un exmilitar experto en investigacion y defensa">
+
+accion2.html---------------------------------
+    <title>Los mercenarios</title>  
+    <meta name="keywords" content="peliculas, accion, los indestructibles, los mercenarios, Sylvester Stallone, grupo">
+    <meta name="description" content="Una pelicula de accion grafica que respresenta las misiones de un grupo de mecenarios">
+
+
+
+
+
