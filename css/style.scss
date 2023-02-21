@@ -17,15 +17,19 @@ body{
 }
 footer{
 
-  #conexion{
-    width: auto;
-    height: auto;
-  }
+  width: 100%;
   a{
     color: $colorcuatro;
   }
 }
 
+#pie{
+  width: auto;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 ul li{
   color: $colorsecundario;
@@ -1165,5 +1169,10 @@ h1{
 
 #buscar, #desplegable, #menu, nav{
     @include alineacionderecha()
+}
+
+.redc:hover{
+  width: 100px;
+  transition: 1s;
 }
 
